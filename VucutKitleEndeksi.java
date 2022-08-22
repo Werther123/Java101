@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class VücutKitleEndeksi {
+public class VucutKitleEndeksi {
     
 
 public static void main(String[] args) {
