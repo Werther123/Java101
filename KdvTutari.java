@@ -1,9 +1,6 @@
 import java.util.Scanner;
 public class KdvTutari {
     
-    /**
-     * @param args
-     */
     public static void main(String[] args ) {
         
         
