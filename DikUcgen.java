@@ -8,7 +8,7 @@ public class DikUcgen {
         
         Scanner input = new Scanner(System.in);
         int a,b,c;
-        double  ucgenAlani,ucgenCevre,d,hipo;
+        double  ucgenAlani,ucgenCevre,d;
 
         System.out.print("Kenar uzunlugu giriniz : ");
         a = input.nextInt();
@@ -17,14 +17,11 @@ public class DikUcgen {
         System.out.print("Kenar uzunlugu giriniz : ");
         c = input.nextInt();
         
-    
         ucgenCevre = a + b + c;
         System.out.println("Ucgenin Cevre Uzunlugu = " + ucgenCevre);
         d = ucgenCevre / 2;
         ucgenAlani = Math.sqrt(d*(d-a)*(d-b)*(d-c));
         System.out.println("Ucgenin Alani = " + ucgenAlani);
-
-    
 
     }
     
