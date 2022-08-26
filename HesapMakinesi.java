@@ -19,7 +19,7 @@ public class HesapMakinesi {
             case 1:
             { 
                 System.out.println("Toplam = " + (a+b));
-            
+                break;
             }
             case 2:
             {
