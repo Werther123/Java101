@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class KuvvetleriBulma {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int n,a=0;
+        int n;
         System.out.print("Bir Sayı Giriniz = ");
         n = input.nextInt();
 
