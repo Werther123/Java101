@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EbokEkok {
+public class EbobEkok {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n1,n2,ebob=1;
@@ -15,11 +15,10 @@ public class EbokEkok {
             if(n1 % i==0 && n2%i== 0){
                 ebob = i;
             }
-         
         }
         System.out.println("Ebob: " + ebob);
         ekok = n1*n2 / ebob;
-        System.out.println("Ekok:" + ekok);
+        System.out.println("Ekok: " + ekok);
         
     }
 }
