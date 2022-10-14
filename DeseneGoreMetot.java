@@ -10,8 +10,7 @@ public class DeseneGoreMetot {
                 if(n==temp){
                    return temp;
                  }
-                System.out.println(n);
-            
+                System.out.println(n);           
             }
             return n;
         }

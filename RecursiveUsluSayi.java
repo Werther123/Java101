@@ -15,7 +15,7 @@ public class RecursiveUsluSayi {
         a = input.nextInt();
         System.out.print("Üs değerini giriniz: ");
         b = input.nextInt();
-        System.out.println(power(a, b));
+        System.out.println();
 
     }
     
